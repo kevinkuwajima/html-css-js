@@ -1,0 +1,61 @@
+div#numeros_sorteio table {
+    width: 100%;
+    background-color: #DDDDDD;
+
+}
+
+div#numeros_sorteio table td {
+    width: 10%;
+
+}
+
+div#numeros_sorteio table td div {
+    width: 50px;
+    height: 50px;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div#numeros_sorteio table td div.sorteado{
+    background-color: #E50000;
+    color: #FFFFFF;
+}
+
+div#ultimos_sorteados{
+    display: flex;
+    background-color: #66AAFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 10px;
+    justify-content: center;
+}
+
+div#acoes{
+    display: flex;
+    justify-content: center;
+}
+
+div#acoes button{
+    margin: 5px;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    font-family: Arial;
+    background-color: #008200;
+    border: 0;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+div#acoes button.azul {
+    background-color: #0000a2;
+}

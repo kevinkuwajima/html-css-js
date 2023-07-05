@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="./formulario.css" />
+</head>
+
+<body>
+
+    <div id="menu">
+        <div class="item">
+            <a href="../index.html">Voltar</a>
+        </div>
+    </div>
+
+    <h1>Formulário</h1>
+
+
+    <!-- Inicia um Formulário-->
+    <form method="post">
+        <div class="campo">
+            <label>Texto</label>
+            <input type="text" maxlength="50" name="nome" value="Já Preenchido">
+        </div>
+
+        <div class="campo">
+            <label>Senha</label>
+            <input type="password" maxlength="6">
+
+        </div>
+
+        <div class="campo">
+            <label>Número</label>
+            <input type="number">
+
+        </div>
+
+        <div class="campo">
+            <label>Data</label>
+            <input type="date">
+
+        </div>
+
+        <div class="campo">
+            <label>Multipla escolha checkbox</label>
+            <div>
+                <input type="checkbox" id="cor_1" name="cores" value="cor 1">
+                <label for="cor_1">Cor 1</label>
+
+                <input type="checkbox" id="cor_2" name="cores" value="cor 2" checked>
+                <label for="cor_2">Cor 2</label>
+
+                <input type="checkbox" id="cor_3" name="cores" value="cor 3">
+                <label for="cor_3">Cor 3</label>
+            </div>
+        </div>
+
+        <div class="campo">
+            <label>Escolha unica radiobox</label>
+            <div>
+
+                <input type="radio" id="sexom" name="sexo" value="masculino">
+                <label for="sexom">Masculino</label>
+
+                <input type="radio" id="sexof" name="sexo" value="feminino">
+                <label for="sexof">Feminino</label>
+
+                <input type="radio" id="sexob" name="sexo" value="não binário" checked>
+                <label for="sexob">Não Binário</label>
+            </div>
+        </div>
+
+        <div class="campo">
+            <label>Escolha tipo select combo</label>
+            <select name="opcao">
+                <option value="">Selecione uma opção</option>
+                <option value="opcao 1 selecionada">Opção 1</option>
+                <option value="opcao 2 selecionada">Opção 2</option>
+                <option value="opcao 3 selecionada">Opção 3</option>
+            </select>
+        </div>
+        <div class="campo">
+            <label>Multipla escolha tipo select combo</label>
+            <select name="series" multiple>
+                <optgroup label="Animações">
+                    <option value="Os Simpsons">Os Simpsons</option>
+                    <option value="Rick and Morty">Rick and Morty</option>
+                    <option value="South Park">South Park</option>
+
+                </optgroup>
+                <optgroup label="Comédia">
+                    <option value="The Office">The Office</option>
+
+                </optgroup>
+                <optgroup label="Ação">
+                    <option value="The Witcher">The Witcher</option>
+                    <option value="Peaky Blinders">Peaky Blinders</option>
+
+                </optgroup>
+                <optgroup label="Dorama">
+                    <option value="Pousando no Amor">Pousando no Amor</option>
+                    <option value="Round Six">Round Six</option>
+                    <option value="Advogada Extraordinária">Advogada Extraodinária</option>
+                </optgroup>
+
+                <optgroup label="Drama">
+                    <option value="Dark">Dark</option>
+                    <option value="Atypical">Atypical</option>
+                </optgroup>
+
+            </select>
+        </div>
+        <div class="campo">
+            <label>Caixa de Texto</label>
+            <textarea name="mensagem"></textarea>
+
+        </div>
+
+        <div class="campo">
+            <button type="reset">Resetar</button>
+            <button type="submit">Enviar Dados</button>
+
+        </div>
+    </form>
+
+</body>
+
+</html>

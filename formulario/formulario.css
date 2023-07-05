@@ -1,0 +1,48 @@
+body {
+    background-image: url(./wallpaper.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    background-color: #00000055;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+div.campo label{
+    color: rgb(255,255,255);
+}
+
+div.campo input{
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #dddddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+div.campo select[name="series"]{
+    height: 300px;
+}
+
+div.campo textarea{
+    height: 200px;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 30px;
+    resize: none;
+}

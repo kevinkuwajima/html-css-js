@@ -1,0 +1,85 @@
+.vermelho{
+    color: red;
+}
+
+.verde{
+    color: rgb(0, 221, 0);
+}
+
+
+table#jogo_da_velha {
+    background-color: #000000;
+    margin: 20px;
+    color: #FFFFFF;
+    font-size: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table#jogo_da_velha tr td {
+    width: 150px;
+    height: 150px;
+    border: 5px #CCCCCC solid;
+}
+
+table#jogo_da_velha tr td:hover {
+    background-color: #444444;
+    cursor: pointer;
+}
+
+
+table#jogo_da_velha tr td div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table#jogo_da_velha tr.placar td{
+    border: 0px!important;
+    background-color: #CCCCCC;
+    color: purple;
+    text-align: center;
+}
+
+#separador{
+    font-size: 58px;
+    color: #444444!important;
+}
+
+#linha1coluna1{
+    border-top: 0px!important;
+    border-left: 0px!important;
+
+}
+
+#linha1coluna2{
+    border-top: 0px!important;
+}
+
+#linha1coluna3{
+    border-top: 0px!important;
+    border-right: 0px!important;
+
+}
+
+#linha2coluna1{
+    border-left: 0px!important;
+}
+
+#linha2coluna3{
+    border-right: 0px!important;    
+}
+
+#linha3coluna1{
+    border-left: 0px!important;
+    border-bottom: 0px!important;
+    
+}
+
+#linha3coluna2{
+    border-bottom: 0px!important;
+}
+
+#linha3coluna3{
+    border-bottom: 0px!important;
+    border-right: 0px!important;
+}
